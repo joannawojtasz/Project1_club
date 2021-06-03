@@ -30,7 +30,6 @@ h1, h2, h3 {
 /*navigation links*/
 #menu {
     letter-spacing: 4px;
-    list-style-type: none;
     margin-right: 10px;
     font-size: 150%;
     color: #252525;
@@ -44,6 +43,8 @@ h1, h2, h3 {
 #menu li {
     float: right;
     padding: 5px;
+    list-style-type: none;
+    margin-right: 30px;
 }
 
 #menu h3 {
@@ -59,8 +60,81 @@ h1, h2, h3 {
 }
 
 #menu a:hover, #menu .active {
-    color:#5f5c5c;
+    color:#888787;
 }
+
+
+/* hero image*/
+#hero-section {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+
+}
+
+#hero-image {
+
+    background: url(../images/pexels-cottonbro-7207757.jpg) no-repeat center center;
+    background-size: cover;
+    clear: both;
+    height: 800px;
+    width: 100%;
+
+}
+
+.hero-text {
+    color: fff;
+    font-size: 120%;
+    font-family: 'Amatic sc';
+    text-align: center;
+    
+}
+
+#hero-yellow {
+    width: 300px;
+    height: 200px;
+    
+    padding: 20px;
+
+
+    background-color: rgba(220, 205, 116, .7);
+
+    bottom: 350px;
+    right: 400px;
+    position:absolute;
+}
+
+#hero-blue {
+    width: 300px;
+    height: 200px;
+    
+    padding: 20px;
+
+    background-color: rgba(30, 163, 225, .7);
+
+    bottom: 150px;
+    right: 100px;
+    position:absolute;
+}
+
+#hero-pink {
+    width: 300px;
+    height: 100px;
+    
+    padding: 20px;
+
+    background-color: rgba(	212, 87, 103, .7);
+
+    bottom: 30px;
+    right: 300px;
+    position:absolute;
+    text-transform: capitalize;
+    font-size: 200%;
+}
+
 
 
 
