@@ -1,5 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
 body {
-font-family:  sans-serif ;
+    font-family: 'Open sans', sans-serif ;
+    color:#3a3a3a;
 }
+
+/* Heading and logo */
+
+h1, h2, h3 {
+    font-family: 'amatic sc', sans-serif;
+    font-size: 180%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 400%;
+}
+
+
+/*navigation links*/
+#menu {
+    letter-spacing: 4px;
+    list-style-type: none;
+    margin-right: 10px;
+    font-size: 150%;
+    color: #252525;
+}
+
+#menu h1, logo {
+    line-height: 50px;
+    color:inherit;
+}
+
+#menu li {
+    float: right;
+    padding: 5px;
+}
+
+#menu h3 {
+    font-size: 75%;
+    letter-spacing: 1px;
+    text-align: center;
+    color: inherit;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover, #menu .active {
+    color:#5f5c5c;
+}
+
+
+
