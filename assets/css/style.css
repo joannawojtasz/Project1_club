@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Open sans', sans-serif ;
+    font-family: 'Open Sans', sans-serif;
     color:#3a3a3a;
 }
 
@@ -137,7 +137,6 @@ h1, h2, h3 {
     width: 100%;
     clear:both;
 }
-
 #intro-inner {
     height: 200px;
     width: 50%;
@@ -146,13 +145,11 @@ h1, h2, h3 {
     padding-top: 300px;
     padding-bottom: 300px;
 }
-
 #intro-inner p {
     text-align: center;
-    font-family: 'Open sans', sans-serif ;
+    font-family: 'Open Sans', sans-serif ;
     font-size: 200%;
 }
-
 #intro h2 {
     font-size: 300%;
 }
@@ -177,7 +174,6 @@ hr {
     border-top: 1px solid #3a3a3a;
     width: 75%;
 }
-
 .reasons p {
     font-size: 150%;
     font-family: 'Open sans', sans-serif ;
@@ -186,7 +182,6 @@ hr {
     line-height:150%;
     padding-top: 20px;
 }
-
 .reasons h2 {
     text-align: left;
 }
