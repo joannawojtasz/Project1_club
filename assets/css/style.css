@@ -70,19 +70,14 @@ h1, h2, h3 {
     height: 800px;
     width: 100%;
     overflow: hidden;
-
-    position: relative;
-
 }
 
 #hero-image {
-
     background: url(../images/pexels-cottonbro-7207757.jpg) no-repeat center center;
     background-size: cover;
     clear: both;
     height: 800px;
     width: 100%;
-
 }
 
 .hero-text {
@@ -95,34 +90,34 @@ h1, h2, h3 {
 
 #hero-yellow {
     width: 300px;
-    height: 200px;
+    height: 100px;
     
     padding: 20px;
 
 
     background-color: rgba(220, 205, 116, .7);
 
-    bottom: 350px;
+    bottom: 150px;
     right: 400px;
     position:absolute;
 }
 
 #hero-blue {
     width: 300px;
-    height: 200px;
+    height: 100px;
     
     padding: 20px;
 
     background-color: rgba(30, 163, 225, .7);
 
-    bottom: 150px;
+    bottom: 100px;
     right: 100px;
     position:absolute;
 }
 
 #hero-pink {
-    width: 300px;
-    height: 100px;
+    width: 200px;
+    height: 50px;
     
     padding: 20px;
 
@@ -134,6 +129,132 @@ h1, h2, h3 {
     text-transform: capitalize;
     font-size: 200%;
 }
+
+/* introduction */
+
+#intro {
+    height: 800px;
+    width: 100%;
+    clear:both;
+}
+
+#intro-inner {
+    height: 200px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#intro-inner p {
+    text-align: center;
+    font-family: 'Open sans', sans-serif ;
+    font-size: 200%;
+    
+
+}
+
+#intro h2 {
+    font-size: 300%;
+}
+/* reasons to join*/
+
+#reasons-picture {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    object-position:middle;
+}
+.reasons {
+    width: 30%;
+    height: 300px;
+    
+    padding: 50px;
+    margin: 50px 50px 50px 50px ;
+ }
+hr {
+    padding:10px;
+    border-top: 1px solid #3a3a3a;
+    width: 75%;
+}
+.face_outher{
+    height: 200px;
+    width: 200px;
+    padding:10px;
+    border: solid;
+    border-radius: 50%;
+    border-color: #3a3a3a;
+    float: left;
+    margin-right: 5px;
+}
+
+#reasons-kid {
+background-color: rgba(220, 205, 116, .7);
+float: left;
+}
+
+#reasons-parent {
+    background-color: rgba(30, 163, 225, .7);
+    margin-top: 200px;
+    float: right;
+}
+
+#reasons-community {
+    background-color: rgba(	212, 87, 103, .7);
+    position: relative;
+    left: 25%;
+    top:325px
+}
+
+#kid-face {
+    background: url(/assets/images/pexels-nappy-1068205.jpg) center center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+#kid-list {
+    float: right;
+    font-size: 150%;
+    text-align: left;
+    font-size: 75%;
+    padding-top: 100px;
+}
+
+#parent-face {
+    background: url(/assets/images/pexels-andrea-piacquadio-774909.jpg) center center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#parent-list {
+    float: left;
+    font-size: 150%;
+    text-align: left;
+    font-size: 75%;
+    padding-top: 100px;
+}
+
+#parent-face_outher {
+    float: right;
+}
+
+
+#community-list {
+    float: left;
+    font-size: 150%;
+    text-align: left;
+    font-size: 100%;
+    padding-top: 100px;
+}
+
+#community-face_outher {
+    float: right;
+}
+
+
 
 
 
