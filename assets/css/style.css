@@ -83,7 +83,7 @@ h1, h2, h3 {
 .hero-text {
     color: fff;
     font-size: 120%;
-    font-family: 'Amatic sc';
+    font-family: 'Amatic sc', sans-serif;
     text-align: center;
     
 }
@@ -151,8 +151,6 @@ h1, h2, h3 {
     text-align: center;
     font-family: 'Open sans', sans-serif ;
     font-size: 200%;
-    
-
 }
 
 #intro h2 {
@@ -161,7 +159,7 @@ h1, h2, h3 {
 /* reasons to join*/
 
 #reasons-picture {
-    height: 800px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
     object-fit: cover;
@@ -171,91 +169,76 @@ h1, h2, h3 {
     width: 30%;
     height: 300px;
     
-    padding: 50px;
-    margin: 50px 50px 50px 50px ;
+    padding: 30px;
+    margin: 50px 50px 0px 50px ;
  }
 hr {
     padding:10px;
     border-top: 1px solid #3a3a3a;
     width: 75%;
 }
+
+.reasons p {
+    font-size: 150%;
+    font-family: 'Open sans', sans-serif ;
+    text-align: left;
+    margin-left: 5px;
+    line-height:150%;
+    padding-top: 20px;
+}
+
+.reasons h2 {
+    text-align: left;
+}
 .face_outher{
-    height: 200px;
-    width: 200px;
-    padding:10px;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
     border: solid;
     border-radius: 50%;
     border-color: #3a3a3a;
     float: left;
-    margin-right: 5px;
 }
 
 #reasons-kid {
-background-color: rgba(220, 205, 116, .7);
-float: left;
+    background-color: rgba(220, 205, 116, .7);
+    float: left;
+    z-index: 1;
+}
+#kid-face {
+    background: url(/assets/images/facekid.jpg) center center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
 }
 
 #reasons-parent {
     background-color: rgba(30, 163, 225, .7);
-    margin-top: 200px;
+    margin-top: 100px;
     float: right;
+    z-index: 2;
 }
+#parent-face {
+    background: url(/assets/images/faceparent.jpg) center center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+#parent-face_outher {
+    float: left;
+}    
 
 #reasons-community {
     background-color: rgba(	212, 87, 103, .7);
-    position: relative;
-    left: 25%;
-    top:325px
+    margin: 400px auto ;
+    z-index: 3;
 }
-
-#kid-face {
-    background: url(/assets/images/pexels-nappy-1068205.jpg) center center;
-    background-size: cover;
-    height: 100%;
-    border-radius: 50%;
-}
-#kid-list {
-    float: right;
-    font-size: 150%;
-    text-align: left;
-    font-size: 75%;
-    padding-top: 100px;
-}
-
-#parent-face {
-    background: url(/assets/images/pexels-andrea-piacquadio-774909.jpg) center center;
-    background-size: cover;
-    height: 100%;
-    border-radius: 50%;
-}
-
-#parent-list {
-    float: left;
-    font-size: 150%;
-    text-align: left;
-    font-size: 75%;
-    padding-top: 100px;
-}
-
-#parent-face_outher {
-    float: right;
-}
-
-
-#community-list {
-    float: left;
-    font-size: 150%;
-    text-align: left;
-    font-size: 100%;
-    padding-top: 100px;
-}
-
 #community-face_outher {
-    float: right;
+    float: left;
 }
-
-
-
-
-
-
+#community-face {
+    background: url(/assets/images/community.jpg) center center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
