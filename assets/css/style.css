@@ -328,3 +328,15 @@ hr {
     font-family: 'amatic sc', sans-serif;
 }
 
+/* footer*/
+
+.footer li, .footer h2 {
+    display:inline;
+    padding: 10px;
+}
+
+.footer i {
+    font-size: 200%;
+    color: #3a3a3a;
+}
+
