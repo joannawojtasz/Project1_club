@@ -243,3 +243,32 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
+
+/*map*/
+#map {
+    text-align: center;
+}
+#map_img {
+    height: 500px;
+    width: 400px;
+
+}
+
+#map_iframe {
+    width: 40%;
+    height: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#map_div {
+    display: inline-block;
+    text-align: left;
+    vertical-align: bottom;
+    padding-bottom: 20px;
+}
+
+#map_div  p {
+    font-size: 150%;
+}
+
