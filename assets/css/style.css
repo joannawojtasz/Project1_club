@@ -163,7 +163,7 @@ h1, h2, h3 {
     object-position:middle;
 }
 .reasons {
-    width: 30%;
+    width: 25%;
     height: 300px;
     
     padding: 30px;
@@ -197,7 +197,7 @@ hr {
 
 #reasons-kid {
     background-color: rgba(220, 205, 116, .7);
-    float: left;
+    margin-left: 20%;
     z-index: 1;
 }
 #kid-face {
@@ -209,8 +209,12 @@ hr {
 
 #reasons-parent {
     background-color: rgba(30, 163, 225, .7);
-    margin-top: 100px;
-    float: right;
+    /* margin-top: 200px; */
+    /* float: right; */
+    position: relative;
+    top: -175px ;
+    left: 45%;
+
     z-index: 2;
 }
 #parent-face {
@@ -225,7 +229,9 @@ hr {
 
 #reasons-community {
     background-color: rgba(	212, 87, 103, .7);
-    margin: 400px auto ;
+    position: relative;
+    top:-250px;
+    left: 25%;
     z-index: 3;
 }
 #community-face_outher {
