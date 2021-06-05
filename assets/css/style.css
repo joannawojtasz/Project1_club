@@ -167,7 +167,7 @@ h1, h2, h3 {
     height: 300px;
     
     padding: 30px;
-    margin: 50px 50px 0px 50px ;
+    margin: 50px 50px 50px 50px ;
  }
 hr {
     padding:10px;
@@ -270,5 +270,61 @@ hr {
 
 #map_div  p {
     font-size: 150%;
+}
+
+/*opinions*/
+
+
+
+#opinions {
+    width: 80%;
+    height: 600px;
+    margin: 100px 10%;
+    background-color: #c6c1c1;
+}
+
+#opinions h2 {
+    padding-left: 25px;
+}
+
+
+.speech-bubble {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    padding: 25px;
+    color: #3a3a3a;
+    border-radius: 10px;
+    margin-left: 15px;
+
+    
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.speech-bubble:after {
+    content: "";
+    position: absolute;
+    
+    left:-15px;
+    top: 15px;
+
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 15px solid #fff;
+}
+
+
+
+.speech-bubble .opinion {
+    font-weight: bold;
+}
+
+.speech-bubble .name {
+    font-size: 100%;
+    text-align: right;
+    font-family: 'amatic sc', sans-serif;
 }
 
