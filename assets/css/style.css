@@ -330,9 +330,10 @@ hr {
 
 /* footer*/
 
-.footer li, .footer h2 {
+.footer li, .footer {
     display:inline;
     padding: 10px;
+
 }
 
 .footer i {
@@ -340,3 +341,9 @@ hr {
     color: #3a3a3a;
 }
 
+
+#socialmedia {
+    font-family: 'amatic sc', sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+}
