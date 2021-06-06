@@ -201,7 +201,7 @@ hr {
     z-index: 1;
 }
 #kid-face {
-    background: url(/assets/images/facekid.jpg) center center;
+    background: url(../images/facekid.jpg) center center;
     background-size: cover;
     height: 100%;
     border-radius: 50%;
@@ -218,7 +218,7 @@ hr {
     z-index: 2;
 }
 #parent-face {
-    background: url(/assets/images/faceparent.jpg) center center;
+    background: url(../images/faceparent.jpg) center center;
     background-size: cover;
     height: 100%;
     border-radius: 50%;
@@ -238,7 +238,7 @@ hr {
     float: left;
 }
 #community-face {
-    background: url(/assets/images/community.jpg) center center;
+    background: url(../images/community.jpg) center center;
     background-size: cover;
     height: 100%;
     border-radius: 50%;
@@ -347,3 +347,19 @@ hr {
     font-size: 200%;
     font-weight: bold;
 }
+
+ /*gallery*/
+
+
+  #photos {
+     clear: both;
+     line-height: 0;
+     column-count: 3;
+     column-gap: 0;
+     height: 2800px;
+     overflow-y: hidden;
+ }
+
+ #photos img {
+    width:100%; 
+ }
