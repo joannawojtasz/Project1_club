@@ -363,3 +363,56 @@ hr {
  #photos img {
     width:100%; 
  }
+
+ /*sign up*/
+
+
+#form-bg {
+     clear: both;
+     background: url(../images/gras.jpg);
+     background-size: cover;
+     height: 800px;
+     width: 100%;
+     
+     
+}
+
+#form-bg h2 {
+    color: #fff;
+    font-size: 200%;
+    padding: 5px;
+}
+
+#form-field {
+     clear: both;
+     color: #fff;
+     font-size: 150%;
+     font-family: 'Open Sans', sans-serif;
+     text-align: center;
+     background: rgba( 58, 58, 58, 0.8);
+     padding: 10%;
+     margin: 10%;
+     position: relative;
+     top: 50px;
+     line-height: 200%;
+ }
+
+ .submit {
+     background: white;
+     color: #3a3a3a;
+     border-radius: 1px;
+     padding: 13px;
+     border: #000;
+     font-size: 100%;
+     font-family: 'amatic sc', sans-serif;
+     font-weight: bold;
+     
+ }
+
+ .submit:hover {
+    background: #3a3a3a;
+    color: #fff;
+
+}
+
+
