@@ -42,6 +42,7 @@ header a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
 }
 
 #menu li {
@@ -149,6 +150,9 @@ a.active {
 
 #reasons {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
 
 }
 
@@ -159,16 +163,17 @@ a.active {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 200px 50px;
+    margin: 200px 0;
 }
 
 hr {
     border-top: 1px solid #3a3a3a;
     width: 80%;
+
 }
 
 .reasons p {
-    font-size: 150%;
+    font-size: 1.5rem;
     font-family: 'Open sans', sans-serif;
     text-align: left;
     margin-left: 1%;
@@ -321,68 +326,58 @@ footer {
 
 /*gallery*/
 
-
 #photos {
     clear: both;
     line-height: 0;
     column-count: 3;
-    column-gap: 0;
-    height: 2800px;
-    overflow-y: hidden;
+    column-gap: 10px;
+    
 }
 
 #photos img {
     width: 100%;
+    padding: 10px;
 }
 
 /*sign up*/
 .form-bg {
-    clear: both;
     background: url(../images/gras.jpg);
     background-size: cover;
-    height: 1350px;
     width: 100%;
-    margin-bottom: 100px;
 }
 
 .form-bg h2 {
     color: #fff;
     font-size: 200%;
-    padding: 5px;
+    padding: 25px;
+    text-align: center;
 }
 
 .form-field {
     clear: both;
     color: #fff;
-    font-size: 150%;
+    font-size: 1.5rem;
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
     background: rgba(58, 58, 58, 0.8);
     margin: 50px auto;
-    position: relative;
-    top: 50px;
-    line-height: 200%;
     width: 80%;
-    padding-top: 50px;
+    /* padding-top: 50px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
 }
 
-#form1 {
-    height: 700px;
-}
-
-#form2 {
-    height: 350px;
-}
-
-.form_div {
-    display: block;
+#opinion {
+    display: flex;
+    width: 400px;
+    height: 150px;
+    padding: 20px;
 }
 
 .checkbox {
     display: block;
-    position: relative;
-    text-align: left;
-    left: 40%;
 }
 
 .submit {
@@ -398,90 +393,76 @@ footer {
     position: relative;
     margin: 15px auto;
 }
-
 .submit:hover {
     background: #3a3a3a;
     color: #fff;
-
-}
-
-#opinion {
-    width: 400px;
-    height: 150px;
-}
-
-.text-input {
-    width: 165px;
 }
 
 /*Calendar*/
 
-#calendar-section {
-    margin-top: 50px;
-    clear: both;
+#calendar-h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
 }
 
-#calendar-section h1 {
-    margin: 50px;
+#calendar-section {
+    margin-top: 100px;
+        width: 100%;
+        display: flex;
+        justify-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-around;
+    }
+
+#calendar-table {
+    display: flex;
+ 
 }
 
 table {
-    width: 100%;
-    height: 100%;
+    height: 600px;
+    width: 600px;
+}
 
+#calendar-img {
+    display: flex;
+    background: url(../images/Calendar.jpg) center center no-repeat;
+    width: 35%;
+    background-size: cover; 
+}
+
+#calendar-events {
+    /* width: 20%; */
+    line-height: 3.5rem;
+    font-size: 1.5rem;
+    border: 1px solid #3a3a3a;
+    padding: 50px;
 }
 
 table,
 td,
 th {
     border-collapse: collapse;
-    border: none;
     border: 1px solid #3a3a3a;
     padding: 3px;
     text-align: center;
 }
 
 th {
-    width: 8%;
     font-family: 'amatic sc', sans-serif;
-    font-size: 200%;
+    font-size: 2rem;
     font-weight: bold;
-
-}
-
-#calendar-table {
-
-    width: 50%;
-    float: left;
-    height: 60vh;
-    margin-left: 5%;
 }
 
 
-#calendar-img img {
-
-    width: 35%;
-    height: 40vh;
-    max-height: 400px;
-    margin-left: 5%;
-
-}
-
-#calendar-events {
-
-    width: 35%;
-    margin-right: 5%;
-    margin-left: 10%;
-    padding: 5px;
-    line-height: 200%;
-    position: relative;
-    bottom: 25vh;
-    left: 55%;
-}
+/* 
 
 #calendar-events h2 {
     padding-bottom: 20px;
-}
+} */
 
 #calendar-events ul {
     list-style: none;

@@ -19,17 +19,9 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="signup.html" class="active">
-                        <h1><i class="fas fa-edit"></i></h1>
-                        <h3>Sign up!</h3>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="gallery.html">
-                        <h1><i class="fas fa-camera"></i></h1>
-                        <h3>Gallery</h3>
-
+                    <a href="index.html">
+                        <h1> <i class="fas fa-home"></i> </h1>
+                        <h3>Home</h3>
                     </a>
                 </li>
                 <li>
@@ -39,9 +31,16 @@
                     </a>
                 </li>
                 <li>
-                    <a href="index.html">
-                        <h1> <i class="fas fa-home"></i> </h1>
-                        <h3>Home</h3>
+                    <a href="gallery.html">
+                        <h1><i class="fas fa-camera"></i></h1>
+                        <h3>Gallery</h3>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="signup.html" class="active">
+                        <h1><i class="fas fa-edit"></i></h1>
+                        <h3>Sign up!</h3>
                     </a>
                 </li>
             </ul>
@@ -50,73 +49,82 @@
 
     <section class="form-section">
         <div class="form-bg">
-            <div class="form-field" id=form1>
+            <div class="form-field">
                 <form action="https://formdump.codeinstitute.net/" method="post" class="signup-form">
 
                     <h2>Sign up now! <i class="fas fa-edit"></i></h2>
-                    <div class=form_div>
-                    <label for="fname"> First Name</label>
-                    <input type="text" name="first_name" id="fname" required class="text-input">
-                    <label for="lname"> Last Name</label>
-                    <input type="text" name="last_name" id="lname" required class="text-input">
-                </div>
-                <div class=form_div>
-                    <label for="email"> Email Address</label>
-                    <input type="email" name="email_address" id="email" required class="text-input">
-                    <label for="phone"> Phone number</label>
-                    <input type="tel" pattern="[0]{1}[7]{1}[0-9]{8}" name="phone_number" id="phone" required class="text-input">
-                </div>
-                <div class=form_div>
-                    <label for="kname"> Kid's Name</label>
-                    <input type="text" name="kid_name" id="kname" required class="text-input">
-                    <label for="kage"> Kid's Age</label>
-
-                    <!-- <input type="number" min=2 max=10 step=1 name="kid-age" id="age"> -->
-                    <input type="text" name="kid_age" id="kage" list="age" required class="text-input">
-                    <datalist id="age">
-                <option value="2">2</option>
-               <option value="3">3</option>
-               <option value="4">4</option>
-               <option value="5">5</option>
-               <option value="6">6</option>
-               <option value="7">7</option>
-               <option value="8">8</option>
-               <option value="9">9</option>
-               <option value="10">10</option>
-                    </datalist>
-                </div>
-                    <p>How many meetings you want to join each month?</p>
-                    
-                    <input type="radio" name="freq" id="freq1" value="1-2" required>
-                    <label for="freq1">1-2</label>
-                    
-                    <input type="radio" name="freq" id="freq2" value="3-4">
-                    <label for="freq2">3-4</label>
-                    
-                    <input type="radio" name="freq" id="freq3" value="5-10">
-                    <label for="freq3">5-10</label>
-                    <p>What activities do you prefer?</p>
-                    <div class="checkbox">
-                    <input type="checkbox" name="activity" id="sports" value="sport" required>
-                    <label for="sports">sport in the field</label>
+                    <div >
+                        <label for="fname"> First Name</label>
+                        <input type="text" name="first_name" id="fname" required class="text-input">
                     </div>
-                    <div class="checkbox">
-                    <input type="checkbox" name="activity" id="playground" value="playground">
-                    <label for="playground">playground hang-outs</label>
-                </div>
-                <div class="checkbox">
-                    <input type="checkbox" name="activity" id="nature" value="nature">
-                    <label for="nature">trips to the forest/lake</label>
-                </div>
-                <div class="checkbox">
-                    <input type="checkbox" name="activity" id="city" value="city">
-                    <label for="city">trips to the city center (sighseeing, visiting museums)</label>
-                </div class="checkbox">
+                    <div >
+                        <label for="lname"> Last Name</label>
+                        <input type="text" name="last_name" id="lname" required class="text-input">
+                    </div>
+                    <div >
+                        <label for="email"> Email Address</label>
+                        <input type="email" name="email_address" id="email" required class="text-input">
+                    </div>
+                    <div >
+                        <label for="phone"> Phone number</label>
+                        <input type="tel" pattern="[0]{1}[7]{1}[0-9]{8}" name="phone_number" id="phone" required
+                            class="text-input">
+                    </div>
+                    <div>
+                        <label for="kname"> Kid's Name</label>
+                        <input type="text" name="kid_name" id="kname" required class="text-input">
+                    </div>
+                    <div>
+                        <label for="kage"> Kid's Age</label>
+                        <input type="text" name="kid_age" id="kage" list="age" required class="text-input">
+                        <datalist id="age">
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </datalist>
+                    </div>
+                    <div>
+                        <p>How many meetings you want to join each month?</p>
+
+                        <input type="radio" name="freq" id="freq1" value="1-2" required>
+                        <label for="freq1">1-2</label>
+
+                        <input type="radio" name="freq" id="freq2" value="3-4">
+                        <label for="freq2">3-4</label>
+
+                        <input type="radio" name="freq" id="freq3" value="5-10">
+                        <label for="freq3">5-10</label>
+                    </div>
+                    <div>
+                        <p>What activities do you prefer?</p>
+                        <div class="checkbox">
+                            <input type="checkbox" name="activity" id="sports" value="sport" required>
+                            <label for="sports">sport in the field</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="activity" id="playground" value="playground">
+                            <label for="playground">playground hang-outs</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="activity" id="nature" value="nature">
+                            <label for="nature">trips to the forest/lake</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="activity" id="city" value="city">
+                            <label for="city">trips to the city center (sighseeing, visiting museums)</label>
+                        </div class="checkbox">
+                    </div>
                     <input type="submit" value="We want to join!" class="submit">
 
                 </form>
             </div>
-            <div class="form-field" id=form2>
+            <div class="form-field">
                 <h2>Already a member? Leave a comment! <i class="fas fa-edit"></i></h2>
                 <form action="https://formdump.codeinstitute.net/" method="post" class="opinion-form">
                     <label for="opinion-form">Let us know what you think:</label>
