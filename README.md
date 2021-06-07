@@ -1,4 +1,6 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Mock-Up](assets/images/mockup.png)
+
+
 
 Welcome joannawojtasz,
 

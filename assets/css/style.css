@@ -11,63 +11,53 @@ body {
     color: #3a3a3a;
 }
 
-/* Heading and logo */
-
 h1,
 h2,
 h3 {
     font-family: 'amatic sc', sans-serif;
-    font-size: 180%;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: #252525;
 }
 
-#logo {
-    float: left;
-    font-size: 400%;
-    margin-bottom: 50px;
+/* Heading and logo */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-
-/*navigation links*/
-#menu {
-    letter-spacing: 4px;
-    margin-right: 10px;
-    font-size: 150%;
-    color: #252525;
-}
-
-#menu h1,
-logo {
-    line-height: 50px;
-    color: inherit;
-}
-
-#menu li {
-    float: right;
-    padding: 5px;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu h3 {
-    font-size: 75%;
-    letter-spacing: 1px;
-    text-align: center;
-    color: inherit;
-}
-
-#menu a {
+header a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover,
-#menu .active {
-    color: #888787;
+#logo {
+    font-size: 4rem;
 }
 
+/*navigation links*/
+
+#menu {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+#menu h3 {
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+a:hover,
+a.active {
+    color: #888787;
+}
 
 /* hero image*/
 #hero-section {
@@ -78,7 +68,7 @@ logo {
 }
 
 #hero-image {
-    background: url(../images/pexels-cottonbro-7207757.jpg) no-repeat center center;
+    background: url(../images/hero.jpg) no-repeat center center;
     background-size: cover;
     clear: both;
     height: 800px;
@@ -89,6 +79,9 @@ logo {
     color: fff;
     font-size: 120%;
     font-family: 'Amatic sc', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 
 }
@@ -135,72 +128,64 @@ logo {
 }
 
 /* introduction */
-
-#intro {
-    height: 800px;
-    width: 100%;
-    clear: both;
-}
-
 #intro-inner {
-    height: 200px;
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 300px;
-    padding-bottom: 300px;
-}
-
-#intro-inner p {
+    margin: 150px auto 0 auto;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 200%;
-}
-
-#intro h2 {
-    font-size: 300%;
+    font-size: 2rem;
 }
 
 /* reasons to join*/
 
+
+
 #reasons-picture {
-    height: 700px;
     width: 100%;
     overflow: hidden;
     object-fit: cover;
     object-position: middle;
 }
 
-.reasons {
-    width: 25%;
-    height: 300px;
+#reasons {
+    display: flex;
 
-    padding: 30px;
-    margin: 50px 50px 50px 50px;
+}
+
+.reasons {
+    width: 30%;
+    padding: 1%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 50px;
 }
 
 hr {
-    padding: 10px;
     border-top: 1px solid #3a3a3a;
-    width: 75%;
+    width: 80%;
 }
 
 .reasons p {
     font-size: 150%;
     font-family: 'Open sans', sans-serif;
     text-align: left;
-    margin-left: 5px;
+    margin-left: 1%;
     line-height: 150%;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .reasons h2 {
     text-align: left;
+    font-size: 3rem;
 }
 
 .face_outher {
-    height: 150px;
-    width: 150px;
+    height: 10vw;
+    max-height: 225px;
+    width: 10vw;
+    max-width: 225px;
     margin: 20px;
     border: solid;
     border-radius: 50%;
@@ -210,8 +195,7 @@ hr {
 
 #reasons-kid {
     background-color: rgba(220, 205, 116, .7);
-    margin-left: 20%;
-    z-index: 1;
+
 }
 
 #kid-face {
@@ -223,13 +207,6 @@ hr {
 
 #reasons-parent {
     background-color: rgba(30, 163, 225, .7);
-    /* margin-top: 200px; */
-    /* float: right; */
-    position: relative;
-    top: -175px;
-    left: 45%;
-
-    z-index: 2;
 }
 
 #parent-face {
@@ -245,10 +222,6 @@ hr {
 
 #reasons-community {
     background-color: rgba(212, 87, 103, .7);
-    position: relative;
-    top: -250px;
-    left: 25%;
-    z-index: 3;
 }
 
 #community-face_outher {
@@ -268,83 +241,54 @@ hr {
 }
 
 #map_img {
-    height: 500px;
     width: 400px;
-
 }
 
 #map_iframe {
-    width: 40%;
-    height: 500px;
+    width: 60%;
+    height: 600px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-#map_div {
-    display: inline-block;
-    text-align: left;
-    vertical-align: bottom;
-    padding-bottom: 20px;
-}
-
-#map_div p {
-    font-size: 150%;
-}
-
 /*opinions*/
-
-
-
-#opinions {
-    width: 80%;
-    height: 600px;
-    margin: 100px 10%;
+#opinions-outside {
+    width: 100%;
+    margin-top: 100px;
     background-color: #c6c1c1;
 }
 
-#opinions h2 {
-    padding-left: 25px;
+#opinions-outside h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#opinions-inside {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
 }
 
 
 .speech-bubble {
-    position: relative;
-    display: inline-block;
+
     background-color: white;
-    padding: 25px;
+     padding: 20px;
+    margin: 10px;
     color: #3a3a3a;
     border-radius: 10px;
-    margin-left: 15px;
-
-
-    max-width: 400px;
-    margin-bottom: 20px;
-}
-
-.speech-bubble:after {
-    content: "";
-    position: absolute;
-
-    left: -15px;
-    top: 15px;
-
-    width: 0;
-    height: 0;
-    border-top: 8px solid transparent;
-    border-bottom: 8px solid transparent;
-    border-right: 15px solid #fff;
-}
-
-
-
-.speech-bubble .opinion-bubble {
-    font-weight: bold;
+    max-width: 250px;
+    align-items: center;
 }
 
 .speech-bubble .name {
-    font-size: 100%;
     text-align: right;
     font-family: 'amatic sc', sans-serif;
+    font-weight: bold;
 }
 
 /* footer*/
@@ -631,7 +575,9 @@ th {
         height: 200px;
     }
 
-    #kid-face_outher, #parent-face_outher, #community-face_outher {
+    #kid-face_outher,
+    #parent-face_outher,
+    #community-face_outher {
         height: 100px;
         width: 100px;
         margin: 5px;
@@ -695,7 +641,7 @@ th {
         font-size: 70%;
         left: 25%;
         width: 40%;
-       
+
     }
 
     #map_div h2 {
@@ -714,7 +660,7 @@ th {
         max-width: 80%;
     }
 
-/* 
+    /* 
     #calendar-section {
         clear: both;
 
@@ -746,9 +692,9 @@ th {
      width: 90%;
     }  */
 
-#photos {
-    column-count: 2;
-}
+    #photos {
+        column-count: 2;
+    }
 
     #socialmedia {
         font-size: 100%;
@@ -761,7 +707,7 @@ th {
 
     .form-field {
         font-size: 75%;
-        overflow: hidden ;
+        overflow: hidden;
         padding: 10px;
         width: 60%;
     }
@@ -770,14 +716,16 @@ th {
         width: 60%;
         height: 100px;
     }
+
     .checkbox {
         left: 15%;
     }
+
     .text-input {
         width: 100px;
     }
+
     #form1 {
         height: 500px;
     }
 }
-
