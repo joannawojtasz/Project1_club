@@ -530,3 +530,10 @@ th {
     bottom: 25vh;
     left: 55%;
 }
+#calendar-events h2 {
+    padding-bottom: 20px;
+}
+
+#calendar-events ul {
+    list-style: none;  
+}
