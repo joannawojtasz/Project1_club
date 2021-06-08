@@ -63,11 +63,11 @@
                     </div>
                     <div>
                         <label for="email"> Email Address</label>
-                        <input type="email" name="email_address" id="email" required class="text-input">
+                        <input type="email" name="email_address" id="email" required class="text-input" required placeholder="mum@tiredparents.com" >
                     </div>
                     <div>
                         <label for="phone"> Phone number</label>
-                        <input type="tel" pattern="[0]{1}[7]{1}[0-9]{8}" name="phone_number" id="phone" required
+                        <input type="tel" pattern="[0]{1}[7]{1}[0-9]{8}" name="phone_number" id="phone" required placeholder="0712345678"
                             class="text-input">
                     </div>
                     <div>
@@ -76,7 +76,7 @@
                     </div>
                     <div>
                         <label for="kage"> Kid's Age</label>
-                        <input type="text" name="kid_age" id="kage" list="age" required class="text-input">
+                        <input type="text" name="kid_age" id="kage" list="age" required class="text-input" pattern="[0-9]{1-2}">
                         <datalist id="age">
                             <option value="2">2</option>
                             <option value="3">3</option>
