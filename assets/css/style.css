@@ -19,14 +19,14 @@ h3 {
     text-transform: uppercase;
     text-align: center;
     font-size: 1.5em;
-    
+
 }
 
 h2 {
     font-size: 3em;
 }
 
-/* Heading and logo */
+/* Header and logo */
 header {
     display: flex;
     justify-content: space-between;
@@ -43,7 +43,7 @@ header a {
     text-align: left;
 }
 
-/*navigation links*/
+/* Navigation links*/
 
 #menu {
     font-size: 1.4rem;
@@ -68,7 +68,8 @@ a.active {
     color: #888787;
 }
 
-/* hero image*/
+/* Hero image*/
+
 #hero-section {
     position: relative;
     width: 100%;
@@ -80,17 +81,18 @@ a.active {
     background: url(../images/hero.jpg) no-repeat center center;
     background-size: cover;
     clear: both;
+
     height: 800px;
     width: 100%;
 }
 
 .hero-text {
     font-family: 'Amatic sc', sans-serif;
-    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 
+    display: flex;
 }
 
 #hero-yellow {
@@ -101,9 +103,9 @@ a.active {
 
     background-color: rgba(220, 205, 116, .7);
 
+    position: absolute;
     bottom: 150px;
     right: 400px;
-    position: absolute;
 }
 
 #hero-blue {
@@ -114,9 +116,9 @@ a.active {
 
     background-color: rgba(30, 163, 225, .7);
 
+    position: absolute;
     bottom: 100px;
     right: 100px;
-    position: absolute;
 }
 
 #hero-pink {
@@ -127,9 +129,10 @@ a.active {
 
     background-color: rgba(212, 87, 103, .7);
 
+    position: absolute;
     bottom: 30px;
     right: 300px;
-    position: absolute;
+
     text-transform: capitalize;
     font-size: 200%;
 }
@@ -139,12 +142,14 @@ a.active {
 #intro-inner {
     width: 40%;
     margin: 150px auto 0 auto;
+
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
 }
 
 /* reasons to join*/
+
 #reasons-picture {
     width: 100%;
     overflow: hidden;
@@ -158,18 +163,20 @@ a.active {
 }
 
 .reasons {
-    display: flex;
     width: 30%;
+    padding: 10px;
+
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 10px;
 }
 
 .reasons p {
     font-size: 1.5rem;
     font-family: 'Open sans', sans-serif;
+
     line-height: 150%;
     padding-top: 10px;
     align-items: flex-start;
@@ -180,10 +187,13 @@ a.active {
     max-height: 225px;
     width: 20vw;
     max-width: 225px;
+
     margin: 20px;
+
     border: solid;
     border-radius: 50%;
     border-color: #3a3a3a;
+
     float: left;
     align-items: center;
 }
@@ -195,7 +205,9 @@ a.active {
 #kid-face {
     background: url(../images/facekid.jpg) center center;
     background-size: cover;
+
     height: 100%;
+
     border-radius: 50%;
 }
 
@@ -213,6 +225,7 @@ a.active {
 #parent-face {
     background: url(../images/faceparent.jpg) center center;
     background-size: cover;
+
     height: 100%;
     border-radius: 50%;
 }
@@ -232,21 +245,20 @@ a.active {
 #community-face {
     background: url(../images/community.jpg) center center;
     background-size: cover;
+
     height: 100%;
     border-radius: 50%;
 }
 
-/*map*/
+/*map section*/
+
 #map {
-
-        text-align: center;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-content: space-around;
-        justify-content: center;
-    }
-
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: center;
+}
 
 #map_img {
     width: 400px;
@@ -256,6 +268,7 @@ a.active {
 #map-text {
     width: 30%;
     padding: 25px;
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -270,6 +283,7 @@ a.active {
 
 .public {
     font-size: 2em;
+    text-align: center;
 }
 
 /*opinions*/
@@ -282,7 +296,9 @@ a.active {
 
 #opinions-inside {
     width: 80%;
+
     margin: 0 auto;
+
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -290,15 +306,15 @@ a.active {
     flex-wrap: wrap;
 }
 
-
 .speech-bubble {
-
     background-color: white;
+    color: #3a3a3a;
+
     padding: 20px;
     margin: 10px;
-    color: #3a3a3a;
     border-radius: 10px;
     max-width: 250px;
+
     align-items: center;
 }
 
@@ -314,72 +330,79 @@ a.active {
 .footer {
     display: inline;
     padding: 10px;
-
 }
 
 .footer i {
-    font-size: 200%;
+    font-size: 2.5em;
     color: #3a3a3a;
 }
 
-
 #socialmedia {
     font-family: 'amatic sc', sans-serif;
-    font-size: 200%;
+    font-size: 3em;
     font-weight: bold;
+    color: #3a3a3a;
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
+
     background: #fff;
+
+    text-align: center;
 }
 
-/*gallery*/
+/*gallery page*/
 
 #photos {
     clear: both;
+
     line-height: 0;
+
     column-count: 3;
     column-gap: 10px;
-
 }
 
 #photos img {
     width: 100%;
+
     padding: 10px;
 }
 
-/*sign up*/
+/*sign-up page*/
+
 .form-bg {
     background: url(../images/gras.jpg) fixed;
     background-size: cover;
-    width: 100%;
 
+    width: 100%;
 }
 
 .form-bg h2 {
     color: #fff;
+
     padding: 25px;
 }
 
 .form-field {
-    clear: both;
-    color: #fff;
-    font-size: 1.5rem;
-    font-family: 'Open Sans', sans-serif;
-    background: rgba(58, 58, 58, 0.8);
-    margin: 50px auto;
     width: 80%;
+
+    margin: 0 auto 50px auto;
     padding-top: 50px;
     padding-bottom: 50px;
+
+    color: #fff;
+    background: rgba(58, 58, 58, 0.8);
+
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 35px;
+
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     align-content: center;
-    line-height: 35px;
 }
 
 input {
@@ -388,8 +411,10 @@ input {
 
 #opinion {
     display: flex;
+
     width: 400px;
     height: 150px;
+
     padding: 20px;
 }
 
@@ -400,15 +425,18 @@ input {
 .submit {
     background: white;
     color: #3a3a3a;
+
     border-radius: 1px;
     padding: 15px;
     border: #000;
-    font-size: 100%;
+    margin: 15px auto;
+
+    font-size: 1.5em;
     font-family: 'amatic sc', sans-serif;
     font-weight: bold;
+
     display: block;
     position: relative;
-    margin: 15px auto;
 }
 
 .submit:hover {
@@ -416,54 +444,56 @@ input {
     color: #fff;
 }
 
-/*Calendar*/
+/*Calendar page*/
 
 #calendar-section {
+    clear: both;
     width: 100%;
+
     display: flex;
     justify-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: space-around;
-    padding-top: 10px;
 }
 
 #calendar-img {
+    width: 25%;
+    height: 500px;
+
     background-image: url(../images/Calendar.jpg);
     background-size: cover;
     background-position: center;
-    width: 25%;
-    height: 500px;
 }
+
 table {
     height: 500px;
     width: 500px;
 }
 
-
 #calendar-events {
-    line-height: 3.5rem;
-    font-size: 1.5rem;
     border: 1px solid #3a3a3a;
     padding: 25px;
+
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+
     display: flex;
     justify-content: space-around;
     align-content: space-around;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: flex-start;
-
 }
 
 #calendar-events li {
-
     list-style: none;
 }
 
 #events-text {
     padding: 20px;
- }
+}
 
 table,
 td,
@@ -471,36 +501,41 @@ th {
     border-collapse: collapse;
     border: 1px solid #3a3a3a;
     padding: 3px;
-    text-align: center;
 
+    text-align: center;
 }
 
 th {
+    width: 14.25%;
+
     font-family: 'amatic sc', sans-serif;
     font-size: 2rem;
     font-weight: bold;
-    width: 14.25%;
 }
 
 /*responsive for medium screens*/
-@media screen and (max-width: 1000px) {
 
+@media screen and (max-width: 1000px) {
     body {
         font-size: 14px;
     }
-  
+
     header {
         flex-direction: column;
     }
-    #logo{
+
+    #logo {
         font-size: 3em;
     }
+
     #menu {
         font-size: 1em;
     }
+
     #intro-inner {
         width: 50%;
     }
+
     #hero-yellow {
         right: 325px;
     }
@@ -524,13 +559,11 @@ th {
     .footer li {
         padding: 1.5px;
         font-size: 0.75rem;
-        ;
     }
 
     #calendar-section {
         justify-items: center;
         flex-direction: column;
-
     }
 
     #calendar-img {
@@ -539,16 +572,19 @@ th {
 
     #calendar-events {
         width: 600px;
+
+        padding: 5px;
         margin-top: 50px;
+
         font-size: 1.25rem;
         line-height: 2rem;
-        padding: 5px;
     }
 
     .form-field {
         padding: 25px;
         margin-top: 0;
     }
+
     .form-bg h2 {
         font-size: 2em;
     }
@@ -593,7 +629,9 @@ th {
     #hero-yellow {
         width: 180px;
         height: 50px;
+
         padding: 10px;
+
         bottom: 90px;
         right: 50px;
     }
@@ -601,7 +639,9 @@ th {
     #hero-blue {
         width: 180px;
         height: 50px;
+
         padding: 10px;
+
         bottom: 30px;
         right: 0;
     }
@@ -609,17 +649,19 @@ th {
     #hero-pink {
         width: 150px;
         height: 15px;
+
         font-size: 100%;
+        font-weight: bold;
+
         padding: 10px;
         bottom: 10px;
+
         right: 150px;
-        font-weight: bold;
     }
 
     #intro {
         padding: 0;
         height: 250px;
-
     }
 
     #intro-inner {
@@ -629,13 +671,15 @@ th {
     #reasons {
         display: flex;
         justify-content: space-around;
-        margin: 100px 0;
         flex-wrap: wrap;
+
+        margin: 100px 0;
     }
 
     .reasons {
-        margin: 10px 5%;
         width: 80%;
+
+        margin: 10px 5%;
         padding: 10px;
     }
 
@@ -644,6 +688,7 @@ th {
     #community-face_outher {
         height: 100px;
         width: 100px;
+
         margin: 5px;
     }
 
@@ -659,11 +704,10 @@ th {
     #map_iframe {
         width: 90%;
         height: 200px;
-
     }
 
     #map-text {
-        width:80%;
+        width: 80%;
     }
 
     h4 {
@@ -672,12 +716,15 @@ th {
 
     #opinions-outside {
         height: 550px;
+
         margin-top: 50;
+
         overflow: hidden;
     }
 
     .speech-bubble {
         max-width: 90%;
+
         font-size: 0.75rem;
     }
 
@@ -687,6 +734,7 @@ th {
 
     .footer li {
         padding: 1px;
+
         font-size: 50%;
     }
 
@@ -695,10 +743,12 @@ th {
     }
 
     .form-field {
-        font-size: 75%;
-        overflow: hidden;
-        padding: 10px;
         width: 60%;
+
+        overflow: hidden;
+
+        padding: 10px;
+        font-size: 75%;
     }
 
     #opinion {
@@ -724,10 +774,11 @@ th {
 
     #calendar-events {
         width: 400px;
+
         margin-top: 50px;
+
         font-size: 1.25rem;
         line-height: 2rem;
-   
     }
 
     table {
@@ -742,7 +793,8 @@ th {
 
     #calendar-events {
         width: 300px;
+
         line-height: 1.5rem;
         font-size: 0.75rem;
-   }
+    }
 }
