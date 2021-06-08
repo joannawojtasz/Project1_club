@@ -1,3 +1,11 @@
+#Portfolio project1: Little frogs kis club.
+
+**Version 1.0.0**
+
+A webpage for a kids club created by parents in Björkekärr, Göteborg. 
+
+
+
 ![Mock-Up](assets/images/mockup.png)
 
 

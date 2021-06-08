@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #3a3a3a;
+    color: #111;
 }
 
 h1,
@@ -18,7 +18,12 @@ h3 {
     letter-spacing: 0.5rem;
     text-transform: uppercase;
     text-align: center;
-    font-size: 2.5rem:;
+    font-size: 1.5em;
+    
+}
+
+h2 {
+    font-size: 3em;
 }
 
 /* Heading and logo */
@@ -80,8 +85,6 @@ a.active {
 }
 
 .hero-text {
-    color: fff;
-    font-size: 1.2rem;
     font-family: 'Amatic sc', sans-serif;
     display: flex;
     align-items: center;
@@ -132,8 +135,9 @@ a.active {
 }
 
 /* introduction */
+
 #intro-inner {
-    width: 50%;
+    width: 40%;
     margin: 150px auto 0 auto;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -145,7 +149,6 @@ a.active {
     width: 100%;
     overflow: hidden;
     object-fit: cover;
-    object-position: middle;
 }
 
 #reasons {
@@ -156,11 +159,16 @@ a.active {
 
 .reasons {
     display: flex;
-     width: 30%; 
+    width: 30%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 10px;
+}
+
+.reasons h2 {
+    font-size:3em;
 }
 
 .reasons p {
@@ -195,10 +203,12 @@ a.active {
     border-radius: 50%;
 }
 
-#kid-list, #parent-list, #community-list {
-     align-self: flex-start;
-     padding-left: 20px;
-    }
+#kid-list,
+#parent-list,
+#community-list {
+    align-self: flex-start;
+    padding-left: 20px;
+}
 
 #reasons-parent {
     background-color: rgba(30, 163, 225, .7);
@@ -232,18 +242,38 @@ a.active {
 
 /*map*/
 #map {
-    text-align: center;
-}
+
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: space-around;
+        justify-content: center;
+    }
+
 
 #map_img {
     width: 400px;
+    padding-top: 25px;
+}
+
+#map-text {
+    width: 30%;
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 #map_iframe {
-    width: 60%;
+    width: 100%;
     height: 600px;
     margin-left: 10px;
-    margin-right: 10px;
+}
+
+.public {
+    font-size: 2em;
 }
 
 /*opinions*/
@@ -268,7 +298,7 @@ a.active {
 .speech-bubble {
 
     background-color: white;
-     padding: 20px;
+    padding: 20px;
     margin: 10px;
     color: #3a3a3a;
     border-radius: 10px;
@@ -317,7 +347,7 @@ footer {
     line-height: 0;
     column-count: 3;
     column-gap: 10px;
-    
+
 }
 
 #photos img {
@@ -330,7 +360,7 @@ footer {
     background: url(../images/gras.jpg) fixed;
     background-size: cover;
     width: 100%;
-    
+
 }
 
 .form-bg h2 {
@@ -356,7 +386,7 @@ footer {
     line-height: 35px;
 }
 
- input {
+input {
     padding: 5px;
 }
 
@@ -384,6 +414,7 @@ footer {
     position: relative;
     margin: 15px auto;
 }
+
 .submit:hover {
     background: #3a3a3a;
     color: #fff;
@@ -392,38 +423,37 @@ footer {
 /*Calendar*/
 
 #calendar-section {
-        width: 100%;
-        display: flex;
-        justify-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-content: space-around;
-    }
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    padding-top: 10px;
+}
 
-    #calendar-img {
-        background-image: url(../images/Calendar.jpg);
-        background-size: cover;
-        background-position: center;
-        width: 25%;
-        height: 600px;
-    
-    
-    }
+#calendar-img {
+    background-image: url(../images/Calendar.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    height: 500px;
+}
 table {
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
 }
 
 
-    #calendar-events {
-    /* width: 20%; */
+#calendar-events {
     line-height: 3.5rem;
     font-size: 1.5rem;
     border: 1px solid #3a3a3a;
     padding: 25spx;
 }
-#calendar-events li{
+
+#calendar-events li {
 
     list-style: none;
 }
@@ -444,44 +474,57 @@ th {
     font-weight: bold;
     width: 14.25%;
 }
+
 /*responsive for medium screens*/
 @media screen and (max-width: 1000px) {
     header {
         flex-direction: column;
     }
-
+    #intro-inner {
+        width: 50%;
+    }
     #hero-yellow {
         right: 325px;
     }
+
     #hero-blue {
         right: 25px;
     }
+
     #hero-pink {
         right: 225px;
     }
+
+    #reasons {
+        margin: 100px 0;
+    }
+
     #socialmedia {
         font-size: 1.25rem;
     }
-    
+
     .footer li {
         padding: 1.5px;
-        font-size: 0.75rem;;
+        font-size: 0.75rem;
+        ;
     }
+
     #calendar-section {
         justify-items: center;
-    flex-direction: column;
- 
+        flex-direction: column;
+
     }
+
     #calendar-img {
         display: none;
     }
 
     #calendar-events {
         width: 600px;
-        margin-top: 50px;  
+        margin-top: 50px;
         font-size: 1.25rem;
-    line-height: 2rem;
-    padding: 5px ;
+        line-height: 2rem;
+        padding: 5px;
     }
 
 }
@@ -489,7 +532,10 @@ th {
 /*responsive for small screens*/
 
 @media screen and (max-width: 650px) {
-    h1, h2, h3 {
+
+    h1,
+    h2,
+    h3 {
         letter-spacing: 0.25rem;
     }
 
@@ -507,12 +553,14 @@ th {
         font-size: 0.75rem;
     }
 
-    #hero-section{
+    #hero-section {
         height: 400px;
     }
+
     #hero-image {
         height: 400px;
     }
+
     .hero-text {
         font-size: 0.75rem;
     }
@@ -551,21 +599,21 @@ th {
 
     #intro-inner {
         font-size: 1rem;
-     }
+    }
 
-     #reasons {
+    #reasons {
         display: flex;
         justify-content: space-around;
-        margin: 200px 0;
+        margin: 100px 0;
         flex-wrap: wrap;
-        
     }
-    
+
     .reasons {
         margin: 10px 5%;
         width: 80%;
         padding: 10px;
     }
+
     #kid-face_outher,
     #parent-face_outher,
     #community-face_outher {
@@ -574,24 +622,27 @@ th {
         margin: 5px;
     }
 
-
-
     #map {
         margin: 0;
         width: 100%
     }
 
     #map_img {
-        width: 90%;
-        margin: 5%;
-        height: 350px;
-        float: left;
+        display: none;
     }
 
     #map_iframe {
         width: 90%;
         height: 200px;
 
+    }
+
+    #map-text {
+        width:80%;
+    }
+
+    h4 {
+        font-size: 1em;
     }
 
     #opinions-outside {
@@ -604,6 +655,7 @@ th {
         max-width: 90%;
         font-size: 0.75rem;
     }
+
     #socialmedia {
         font-size: 1rem;
     }
@@ -612,6 +664,7 @@ th {
         padding: 1px;
         font-size: 50%;
     }
+
     #photos {
         column-count: 2;
     }
@@ -639,14 +692,34 @@ th {
     #form1 {
         height: 500px;
     }
+
     table {
         width: 400px;
     }
+
     #calendar-events {
         width: 400px;
-        margin-top: 50px;  
+        margin-top: 50px;
         font-size: 1.25rem;
-    line-height: 2rem;
-    padding: 5px ;
+        line-height: 2rem;
+        padding: 5px;
+    }
+
+    table {
+        height: 300px;
+        width: 300px;
+    }
+
+    #calendar-section {
+        align-content: center;
+        justify-content: center;
+    }
+
+    #calendar-events {
+        width: 300px;
+        line-height: 1.5rem;
+        font-size: 0.75rem;
+        border: 1px solid #3a3a3a;
+        padding: 25spx;
     }
 }
