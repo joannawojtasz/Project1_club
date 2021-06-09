@@ -118,10 +118,17 @@ The visitor of the webpage expect/want/need:
 
 #### HTMl validator https://validator.w3.org/
 
-- Couple of minor errors such as leftout closing tags, missuse of textfield  and script left out of the body elemnt.
+* Errors
+- [x] Couple of minor errors such as leftout closing tags, missuse of textfield  and script left out of the body elemnt.
 
-- Missing section headers.
-
+* Warnings:
+- [ ] Missing section headers.
+- [ ] Empty heading - icon in navbar, followed by text in h2
+- [ ] Possible misuse of aria-label
+- [ ] Consider using the h1 element as a top-level heading only - h1 used in navbar
+- [x] A table row was 3 columns wide, which is less than the column count established by the first row
+- [ ]
+ 
 #### CSS validator https://jigsaw.w3.org/css-validator/
 
 - One error - missing unit.
@@ -148,7 +155,9 @@ The visitor of the webpage expect/want/need:
 "- The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment."
+
+  (Description by Code Institue)
 
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
 
