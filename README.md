@@ -1,10 +1,11 @@
-# Little frogs kis club (Portfolio project1:)
+# Little frogs kis club 
 
 **Version 1.0.0**
 
 Little frogs is a webpage that hopes to help tired parents of small kids in the area of Göteborg, Sweden. the site is targeted towards parets with kis in age of 2-10 years who struggle to find activities to wear out kids daily activity.  Allowing kids playing together outdoors and patents to catch a breath.  Little frogs is helping new members to reach the "support village" and the current members to see the upcoming events and share some pictures.
 
-![Mockup](/assets/images/Mockup.PNG)
+![Mockup](/assets/images/mockup.PNG) 
+mockup generated via https://techsini.com/multi-mockup/
 
 ## UX
 
@@ -68,7 +69,7 @@ The visitor of the webpage expect/want/need:
 -This section shows the reasons to join the club presented from the perspective of kids, parent and possible benefits to the society.
 -Different groups are visualised with three colorful boxes featuring pictures and list of reasons.
 
-![Reasons Section](/assets/images/reasons.png)
+![Reasons Section](/assets/images/reasonss.png)
 -__Map section__
 -This section visualise map of the are where pottential users might be living and where the meeting are held.
 -A descriotion of the meeting place and possible ways to get there is provided in the paragraph of text together with a picture of a child holding a map.
@@ -108,12 +109,47 @@ The visitor of the webpage expect/want/need:
 
 ## Testing
 
+### Testing agains user stories
+
+The visitor of the webpage expect/want/need:
+
+1. What I would like to know from that website is clear information what is it about; moreover, what kind of activities are offered, when and where; would be nice to see some pictures of actual participants of events organized by the club, followed by some opinions that come from members.
+
+- Little frogs webpages provides information about the kids cluvb for current and potential members. The index page is informatory with a simple introduction to what the club is together with members opinions and navigation to meeting places. To provide more information and as well as features for current members a separate pages were created for calendar, with selection of upcoming events, and a gallery,  with pictures to give user idea of the proposed activities. Different pages can be easily accesed by the navigation panel on top of every page.
+
+2. Webpage should have a clear, easy-to-navigate layout, with enough information (but without "a lot to read").
+
+- Little Frogs simple design allows user to easily reach simple information about kids club. The index page presents clubs motto, reasons to join, information about meeting place and members reviews. The navigationbar placed on the top of the page allows acces to the calendar wih information about upcoming events, gallery with selection of pictures from previous events and a signup page.
+
+3. To easily acces and look through upcoming events without confusing navigation through the page.
+
+- The calendar is placed in a separate tab, so that members of the club do not need to to scroll through the introduction on the index page to get the information about upcoming evemts. The o the top of the page
+
+4. For the potential new members short accessible informatioion what the club is doing, how to conntact it and join.
+
+  Rge index page tells potential users about the club while seperate page invite to sign in to the club. Additional contact information and social media accounts are provided in the footer on each page.
+
 ### Manual testing
 
- - manual code evaluation, cleaning-up the code structure and looking for missused commands, typos
-  
- - found multiple redundant lines, improved code organisation for readability.
+ * manual code evaluation, cleaning-up the code structure and looking for missused commands, typos
+   - [x] found multiple redundant lines, improved code organisation for readability.
 
+ * testing in different brosers - the webpage was opened, scrolled-through and navigation between pages was tested
+
+ #### desktop
+ * Google Chrome Version 91.0.4472.77
+ * Firefox 89.0
+ * Microsoft Edge Version 91.0.864.41
+
+ All of the browsers showed good performance of the webpage.
+
+ #### mobile
+
+ * Chrome for Android
+ * Safari for iOS
+
+ Webpage worked correctly on different phones with Chrome and Safari browsers. 
+ 
 ### Validator testing
 
 #### HTMl validator https://validator.w3.org/
@@ -122,24 +158,23 @@ The visitor of the webpage expect/want/need:
 - [x] Couple of minor errors such as leftout closing tags, missuse of textfield  and script left out of the body elemnt.
 
 * Warnings:
-- [ ] Missing section headers.
+- [ ] Missing section headers - the headers are missing due to design choices
 - [ ] Empty heading - icon in navbar, followed by text in h2
 - [ ] Possible misuse of aria-label
 - [ ] Consider using the h1 element as a top-level heading only - h1 used in navbar
 - [x] A table row was 3 columns wide, which is less than the column count established by the first row
-- [ ]
  
 #### CSS validator https://jigsaw.w3.org/css-validator/
 
-- One error - missing unit.
+- [x] One error - missing unit.
 
-#### Lighthouse from Chrome  Dev Tools
+#### Testing the webpage in the Chrom Lighthouse tool
 
 * Desktop 
 
 ![Lighthouse Desktop](/assets/images/lighthouse-desktop.png)
 
-- [x] First raport showed issuses with the size signup background image.
+- [x] First raport showed issuses with the size signup background and resons image, the images were compressed.
 
 * Mobile
 
@@ -148,7 +183,7 @@ The visitor of the webpage expect/want/need:
 - [ ] Porblems: lack of passive listeners on map element.
 - [ ] Image elements do not have explicit width and height.
 - [x] Font sizes in %
-- [ ] Lack of contrast - the error is related to a hover, or active page link in navigation bar, as it becomes gray (from black) when in use
+- [ ] Lack of contrast - the error is related to a hover, or active page link in navigation bar, as it becomes gray (from black) when in use, remaining fonts have apropriate contrast.
 
 ## Deployment
 
