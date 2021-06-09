@@ -452,17 +452,20 @@ input {
     justify-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: space-around;
 }
 
+video {
+    height: 650px;
+}
+
 #calendar-events {
-    max-width: 400px;
+    width: 500px;
     height: 600px;
 
     border: 1px solid #3a3a3a;
     padding: 25px;
-    margin-bottom: 25px;
 
     line-height: 2.5rem;
     font-size: 1.25rem;
