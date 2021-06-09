@@ -27,21 +27,20 @@ The visitor of the webpage expect/want/need:
 
 * Index page
 ![wireframe_index](/assets/images/wireframe_index.png) 
+
 * Gallery
 ![wireframe_gallery](/assets/images/wireframe_gallery.png)
+
 * signup
 ![wireframe_signup](/assets/images/wireframe_signup.png)
+
 * calendar
 ![wireframe_calendar](/assets/images/wireframe_calendar.png)
-* ideas
-![wireframe_ideas](/assets/images/wireframe_ideas.png)
-
 
 ### Changes
 
 * Resign from the background shapes in the motto to  improve responsiveness of the design.
 * Removed the speech-buble shape to increase readibility and improve design.
-* Moved away from the picture to improve design.
 * Introduced an opinion field in sign-up page to allow members interaction.
 
 ## Features
@@ -49,63 +48,83 @@ The visitor of the webpage expect/want/need:
 #### Existing features
 
 -__Navigation Bar__
--Featured on all the subpages and fully responsive navigation bar includes links to tha home page. calendar, gallery and sign up. 
--Thanks to identical layout on each pages it allows easy navigation between pages withoud need to use back button.
+* Featured on all the subpages and fully responsive navigation bar includes links to tha home page. calendar, gallery and sign up. 
+* Thanks to identical layout on each pages it allows easy navigation between pages withoud need to use back button.
 
 ![Nav Bar](/assets/images/navbar.png)
 
 
 -__Index Page__
--The landing page includes a picture with overlayed text boxes. It introduces user to the problem the webpage responds to. 
+
+* The landing page includes a picture with overlayed text boxes. It introduces user to the problem the webpage responds to. 
 
 ![Landing Page](/assets/images/index.png)
 
 -__The motto section__
--The paragraph that introduces users to the ida behind the kids club.
--A colorful pictures of kids playing a game outhords that visualise the possible activities the club offers.
+
+* The paragraph that introduces users to the ida behind the kids club.
+
+* A colorful pictures of kids playing a game outhords that visualise the possible activities the club offers.
 
 ![Motto Section](/assets/images/motto.png)
 -__Reasons section__
--This section shows the reasons to join the club presented from the perspective of kids, parent and possible benefits to the society.
--Different groups are visualised with three colorful boxes featuring pictures and list of reasons.
+
+* This section shows the reasons to join the club presented from the perspective of kids, parent and possible benefits to the society.
+
+* Different groups are visualised with three colorful boxes featuring pictures and list of reasons.
 
 ![Reasons Section](/assets/images/reasonss.png)
 -__Map section__
--This section visualise map of the are where pottential users might be living and where the meeting are held.
--A descriotion of the meeting place and possible ways to get there is provided in the paragraph of text together with a picture of a child holding a map.
+
+* This section visualise map of the are where pottential users might be living and where the meeting are held.
+
+* A descriotion of the meeting place and possible ways to get there is provided in the paragraph of text together with a picture of a child holding a map.
 
 ![map Section](/assets/images/map.png)
 
+-__Opinions section__
+
+* Introduce user to the reviews left by the members of the club.
+
+* The sections offers users who are members an opportunity of leaving their own comment via clicking a link redirecting to a thre relevant page.
+
+![Opinions Section](/assets/images/opinions.png)
+
 -__The Footer__
--The footer section includes links to the relevant social media sites for Litlle frogs kids club and an mail address. The links open in a new tab to allow easier navigation.
--The footer provides additional ways to conntact the club via mail and social media.
+
+* The footer section includes links to the relevant social media sites for Litlle frogs kids club and an mail address. The links open in a new tab to allow easier navigation.
+
+* The footer provides additional ways to conntact the club via mail and social media.
 
 ![Footer Page](/assets/images/footer.png)
 
 -__The Calendar__
 
--This section provides value to the user as it allows current and new members to preview the upcoming events. 
--The direct acces from the navbar allows current member to acces the calendar without scrolling through the page.
+* This section provides value to the user as it allows current and new members to preview the upcoming events. 
+
+* The direct acces from the navbar allows current member to acces the calendar without scrolling through the page.
 
 ![Calendar Page](/assets/images/calendar.png)
 
 -__Gallery__
 
--The provides new users to look through the activities held by the club.
--The current members can look back at the pictures from the events their been part of.
+* The provides new users to look through the activities held by the club.
+
+* The current members can look back at the pictures from the events their been part of.
 
 ![Gallery Page](/assets/images/gallery.png)
 
 -__Sign-up__
 
--This page allows new users to join the club. It features a form  allowing parents to leave contact details, as well as information about their childer, preferred activities and meeting frequency. 
--Current members can use this page to leave a comment.
+* This page allows new users to join the club. It features a form  allowing parents to leave contact details, as well as information about their childer, preferred activities and meeting frequency. 
+
+* Current members can use this page to leave a comment.
 
 ![Signup Page](/assets/images/signup.png)
 
 #### Features left to implement
 
--A page with ideas for possible activities for the children when the club is not running any meetings.
+* The webpage could feature ideas for possible activities in the neibourhood when the club is not running any meetings.
 
 ## Testing
 
@@ -115,7 +134,7 @@ The visitor of the webpage expect/want/need:
 
 1. What I would like to know from that website is clear information what is it about; moreover, what kind of activities are offered, when and where; would be nice to see some pictures of actual participants of events organized by the club, followed by some opinions that come from members.
 
-- Little frogs webpages provides information about the kids cluvb for current and potential members. The index page is informatory with a simple introduction to what the club is together with members opinions and navigation to meeting places. To provide more information and as well as features for current members a separate pages were created for calendar, with selection of upcoming events, and a gallery,  with pictures to give user idea of the proposed activities. Different pages can be easily accesed by the navigation panel on top of every page.
+- Little frogs webpages provides information about the kids cluvb for current and potential members. The index page is informatory with a simple introduction to what the club is together with members opinions and navigation to meeting places. To provide more information and as well as features for current members a separate pages were created for calendar, with selection of upcoming events, and a gallery,  with pictures to give user idea of the proposed activities. Different pages can be easily accesed by the navigation panel on top of every page. Little frogs webpage provides opportunity to conntact the club via Facebook, Instagram and mail. Links to the social media are provided in the footer. The members have also opportunity to leave comment. The field for leaving comment is in the signin page but it can be also accesed via a link in the opinions section on the index page.
 
 2. Webpage should have a clear, easy-to-navigate layout, with enough information (but without "a lot to read").
 
@@ -127,7 +146,7 @@ The visitor of the webpage expect/want/need:
 
 4. For the potential new members short accessible informatioion what the club is doing, how to conntact it and join.
 
-  Rge index page tells potential users about the club while seperate page invite to sign in to the club. Additional contact information and social media accounts are provided in the footer on each page.
+  The index page tells potential users about the club while seperate page invite to sign in to the club. Additional contact information and social media accounts are provided in the footer on each page.
 
 ### Manual testing
 
