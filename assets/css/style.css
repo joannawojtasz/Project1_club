@@ -89,7 +89,7 @@ a.active {
 
 .hero-text {
     font-family: 'Amatic sc', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     
     justify-content: center;
     text-align: center;
@@ -107,7 +107,7 @@ a.active {
     background-color: rgba(220, 205, 116, .7);
 
     position: absolute;
-    bottom: 150px;
+    bottom: 180px;
     right: 400px;
 }
 
@@ -121,7 +121,7 @@ a.active {
 
     position: absolute;
     bottom: 100px;
-    right: 100px;
+    right: 75px;
 }
 
 #hero-pink {
@@ -783,9 +783,8 @@ th {
     .public {
         font-size: 1em;
     }
-    #opinions-section {
-        height: 522px;
-        overflow: hidden;
+    .disablecomment {
+        display: none;
     }
 
     .speech-bubble {
@@ -809,7 +808,7 @@ th {
     }
 
     .form-field {
-        width: 90%;
+        width: 80%;
 
         overflow: hidden;
 
@@ -820,7 +819,7 @@ th {
     .selection, .checkbox {
         padding-left: 50px;
     }
-    
+
     #opinion {
         width: 60%;
         height: 100px;
