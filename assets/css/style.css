@@ -421,6 +421,23 @@ footer {
     align-content: center;
 }
 
+.freq, .checkbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 160px;
+    width: 50%;
+}
+
+.checkbox label, .freq label {
+    padding-left: 50px;
+}
+
+.form-div {
+    display: flex;
+    justify-content: space-between;
+
+}
 input {
     padding: 5px;
 }

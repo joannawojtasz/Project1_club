@@ -159,7 +159,7 @@ The visitor of the webpage expect/want/need:
 
   (Description by Code Institue)
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://joannawojtasz.github.io/Project1_club/index.html
 
 ## Credits
 
