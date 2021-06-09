@@ -100,7 +100,7 @@ The visitor of the webpage expect/want/need:
 -This page allows new users to join the club. It features a form  allowing parents to leave contact details, as well as information about their childer, preferred activities and meeting frequency. 
 -Current members can use this page to leave a comment.
 
-![Signup Page](/assets/images/gallery.png)
+![Signup Page](/assets/images/signup.png)
 
 #### Features left to implement
 
