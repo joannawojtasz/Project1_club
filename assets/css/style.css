@@ -325,9 +325,7 @@ a.active {
 }
 
 /* footer*/
-
-.footer li,
-.footer {
+.footer li {
     display: inline;
     padding: 10px;
 }
