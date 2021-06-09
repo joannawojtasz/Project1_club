@@ -26,15 +26,19 @@ The visitor of the webpage expect/want/need:
 ### Wireframe mockups
 
 * Index page
+
 ![wireframe_index](/assets/images/wireframe_index.png) 
 
 * Gallery
+
 ![wireframe_gallery](/assets/images/wireframe_gallery.png)
 
 * signup
+
 ![wireframe_signup](/assets/images/wireframe_signup.png)
 
 * calendar
+
 ![wireframe_calendar](/assets/images/wireframe_calendar.png)
 
 ### Changes
