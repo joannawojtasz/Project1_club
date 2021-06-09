@@ -79,7 +79,7 @@ a.active {
 }
 
 #hero-image {
-    background: url(./images/hero.jpg) no-repeat center center;
+    background: url(../images/hero.jpg) no-repeat center center;
     background-size: cover;
     clear: both;
 
