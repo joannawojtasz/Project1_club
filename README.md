@@ -224,7 +224,7 @@ The Lighthouse tools provided satisfying response. Selected issues were fixed ac
 
   (Description by Code Institue)
 
-The live link can be found here - https://joannawojtasz.github.io/Project1_club/index.html
+The live link can be found here - ![Little frogs](https://joannawojtasz.github.io/Project1_club/index.html)  
 
 The deployment of the page did not provide any errors.
 
