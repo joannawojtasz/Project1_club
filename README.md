@@ -51,7 +51,7 @@ The visitor of the webpage expect/want/need:
 -Featured on all the subpages and fully responsive navigation bar includes links to tha home page. calendar, gallery and sign up. 
 -Thanks to identical layout on each pages it allows easy navigation between pages withoud need to use back button.
 
-![Nav Bar](/assets/images/nav.png)
+![Nav Bar](/assets/images/navbar.png)
 
 
 -__Index Page__
