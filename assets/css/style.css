@@ -30,12 +30,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 25px;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
-    padding: 0 25px;
 }
 
 #logo {
@@ -425,12 +425,11 @@ footer {
     align-content: center;
 }
 
-.freq, .checkbox {
+.selection, .checkbox {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding-left: 160px;
-    width: 50%;
 }
 
 .checkbox label, .freq label {
@@ -443,7 +442,7 @@ footer {
 
 }
 input {
-    padding: 5px;
+    margin: 5px;
 }
 
 #opinion {
@@ -632,7 +631,7 @@ th {
     }
 
     .form-field {
-        padding: 25px;
+        padding: 10px;
         margin-top: 0;
     }
 
@@ -654,6 +653,7 @@ th {
     h2,
     h3 {
         letter-spacing: 0.25rem;
+        font-size: 1.2em;
     }
 
     h2 {
@@ -662,6 +662,7 @@ th {
 
     header {
         flex-direction: column;
+        padding: 0;
     }
 
     #logo {
@@ -670,8 +671,12 @@ th {
         font-weight: bold;
     }
 
-    #menu h2, h3 {
-        font-size: 0.75rem;
+    #menu h1 {
+        font-size: 1.4em;
+    }
+
+    #menu h3 {
+        font-size: 1em;
     }
 
     #hero-section {
@@ -719,8 +724,8 @@ th {
 
     #intro {
         padding: 0;
-        width: 80%;
-        margin: 25px auto;
+        width: 100%;
+        margin: 0 auto 30px;
 
     }
 
@@ -779,7 +784,7 @@ th {
         font-size: 1em;
     }
     #opinions-section {
-        height: 520px;
+        height: 522px;
         overflow: hidden;
     }
 
@@ -804,14 +809,18 @@ th {
     }
 
     .form-field {
-        width: 60%;
+        width: 90%;
 
         overflow: hidden;
 
         padding: 10px;
         font-size: 1em;
     }
-
+    
+    .selection, .checkbox {
+        padding-left: 50px;
+    }
+    
     #opinion {
         width: 60%;
         height: 100px;
