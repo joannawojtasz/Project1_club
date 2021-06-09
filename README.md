@@ -143,7 +143,7 @@ The visitor of the webpage expect/want/need:
 
 * Mobile
 
-![Lighthouse Mobile](/assets/images/lighthouse-mobile.png)
+![Lighthouse Mobile](/assets/images/ligthhouse-mobile.png)
 
 - [ ] Porblems: lack of passive listeners on map element.
 - [ ] Image elements do not have explicit width and height.
