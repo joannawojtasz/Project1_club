@@ -18,7 +18,7 @@ h3 {
     letter-spacing: 0.5rem;
     text-transform: uppercase;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 h2 {
@@ -400,7 +400,6 @@ footer {
 
 .form-bg h2 {
     color: #fff;
-
     padding: 25px;
 }
 
@@ -786,7 +785,10 @@ th {
     .disablecomment {
         display: none;
     }
-
+    #opinions-inside {
+        width: 90%;
+        margin: 5px auto;
+    }
     .speech-bubble {
         max-width: 90%;
         padding: 10px;
