@@ -293,6 +293,7 @@ a.active {
 #opinions-section {
     width: 100%;
     margin: 25px 0;
+    padding-top: 25px;
     background-color: #c6c1c1;
 }
 
@@ -656,7 +657,7 @@ th {
     }
 
     h2 {
-        font-size: 1.4rem;
+        font-size: 2em;
     }
 
     header {
@@ -664,7 +665,7 @@ th {
     }
 
     #logo {
-        font-size: 1.2rem;
+        font-size: 2em;
         margin-bottom: 0;
         font-weight: bold;
     }
@@ -685,23 +686,21 @@ th {
         font-size: 0.75rem;
     }
 
-    #hero-yellow {
+    #hero-yellow, #hero-blue {
         width: 180px;
         height: 50px;
 
         padding: 10px;
 
-        bottom: 90px;
-        right: 50px;
+        font-size: 1em;
     }
 
+    #hero-yellow {
+        bottom: 90px;
+        right: 50px;}
+
     #hero-blue {
-        width: 180px;
-        height: 50px;
-
-        padding: 10px;
-
-        bottom: 30px;
+         bottom: 30px;
         right: 0;
     }
 
@@ -709,7 +708,7 @@ th {
         width: 150px;
         height: 15px;
 
-        font-size: 100%;
+        font-size: 1.25em;
         font-weight: bold;
 
         padding: 10px;
@@ -721,7 +720,8 @@ th {
     #intro {
         padding: 0;
         width: 80%;
-        margin-top: 50px;
+        margin: 25px auto;
+
     }
 
     #intro-inner {
@@ -733,7 +733,7 @@ th {
         justify-content: space-around;
         flex-wrap: wrap;
 
-        margin: 100px 0;
+        margin: 0;
     }
 
     .reasons {
@@ -768,23 +768,24 @@ th {
 
     #map-text {
         width: 80%;
+        margin: 0;
+        line-height: 2em;
     }
 
     h4 {
         font-size: 1em;
     }
-
-    #opinions-outside {
-        height: 550px;
-
-        margin-top: 50px;
-
+    .public {
+        font-size: 1em;
+    }
+    #opinions-section {
+        height: 520px;
         overflow: hidden;
     }
 
     .speech-bubble {
         max-width: 90%;
-
+        padding: 10px;
         font-size: 0.75rem;
     }
 
