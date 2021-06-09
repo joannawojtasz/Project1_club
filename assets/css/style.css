@@ -454,6 +454,10 @@ input {
     color: #fff;
 }
 
+#opinion-form {
+    display: block;
+}
+
 /*Calendar page*/
 
 #calendar-section {
@@ -594,7 +598,7 @@ th {
     }
 
     table {
-        width:500px
+        width: 500px
     }
 
     .form-field {
@@ -604,6 +608,11 @@ th {
 
     .form-bg h2 {
         font-size: 2em;
+    }
+
+    #opinion-form {
+        width: 200px;
+        height: 100px;
     }
 }
 
@@ -752,7 +761,7 @@ th {
     .footer li {
         padding: 1px;
 
-        font-size: 50%;
+        font-size: 1em;
     }
 
     #photos {
@@ -765,7 +774,7 @@ th {
         overflow: hidden;
 
         padding: 10px;
-        font-size: 75%;
+        font-size: 1em;
     }
 
     #opinion {

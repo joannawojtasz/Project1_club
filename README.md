@@ -24,11 +24,16 @@ The visitor of the webpage expect/want/need:
 
 ### Wireframe mockups
 
-* ![wireframe_index](/assets/images/wireframe_index.png) 
-* ![wireframe_gallery](/assets/images/wireframe_gallery.png)
-* ![wireframe_signup](/assets/images/wireframe_signup.png)
-* ![wireframe_calendar](/assets/images/wireframe_calendar.png)
-* ![wireframe_ideas](/assets/images/wireframe_ideas.png)
+* Index page
+![wireframe_index](/assets/images/wireframe_index.png) 
+* Gallery
+![wireframe_gallery](/assets/images/wireframe_gallery.png)
+* signup
+![wireframe_signup](/assets/images/wireframe_signup.png)
+* calendar
+![wireframe_calendar](/assets/images/wireframe_calendar.png)
+* ideas
+![wireframe_ideas](/assets/images/wireframe_ideas.png)
 
 
 ### Changes
@@ -123,14 +128,20 @@ The visitor of the webpage expect/want/need:
 
 #### Lighthouse from Chrome  Dev Tools
 
+* Desktop 
 
+![Lighthouse Desktop](/assets/images/lighthouse-desktop.png)
 
+- [x] First raport showed issuses with the size signup background image.
 
+* Mobile
 
-- [ ]
-- [ ] 
-- [ ] 
-- [ ] 
+![Lighthouse Mobile](/assets/images/lighthouse-mobile.png)
+
+- [ ] Porblems: lack of passive listeners on map element.
+- [ ] Image elements do not have explicit width and height.
+- [x] Font sizes in %
+- [ ] Lack of contrast - the error is related to a hover, or active page link in navigation bar, as it becomes gray (from black) when in use
 
 ## Deployment
 
