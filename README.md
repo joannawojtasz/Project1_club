@@ -153,7 +153,7 @@ The visitor of the webpage expect/want/need:
  * manual code evaluation, cleaning-up the code structure and looking for missused commands, typos
    - [x] found multiple redundant lines, improved code organisation for readability.
 
- * testing in different brosers - the webpage was opened, scrolled-through and navigation between pages was tested
+ * testing in __different brosers__ and __screen sizes__ - the webpage was opened, scrolled-through and navigation between pages was tested on different browsers at desktop and mobile devices
 
  #### desktop
  * Google Chrome Version 91.0.4472.77
@@ -168,7 +168,11 @@ The visitor of the webpage expect/want/need:
  * Safari for iOS
 
  Webpage worked correctly on different phones with Chrome and Safari browsers. 
+
+ * __responsivness__ tests with Chrome developer tools
  
+Chrome developer tools were used to simulate browsing the project on different screen sizes. This type of thesting was performed ongoing during page development as well as after deployment and the errors were fixed continuesly.
+
 ### Validator testing
 
 #### HTMl validator https://validator.w3.org/
@@ -187,7 +191,7 @@ The visitor of the webpage expect/want/need:
 
 - [x] One error - missing unit.
 
-#### Testing the webpage in the Chrom Lighthouse tool
+### Testing the webpage in the Chrom Lighthouse tool
 
 * Desktop 
 
@@ -205,6 +209,7 @@ The visitor of the webpage expect/want/need:
 - [ ] Lack of contrast - the error is related to a hover, or active page link in navigation bar, as it becomes gray (from black) when in use, remaining fonts have apropriate contrast.
 
 The Lighthouse tools provided satisfying response. Selected issues were fixed according to recived suggestions. Explenation of some of the remaining issues can be found above. 
+
 
 ## Deployment
 
