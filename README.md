@@ -4,7 +4,7 @@
 
 Little frogs is a webpage that hopes to help tired parents of small kids in the area of Göteborg, Sweden. the site is targeted towards parets with kis in age of 2-10 years who struggle to find activities to wear out kids daily activity.  Allowing kids playing together outdoors and patents to catch a breath.  Little frogs is helping new members to reach the "support village" and the current members to see the upcoming events and share some pictures.
 
-![Mockup](/assets/images/mockup.PNG) 
+![Mockup](/assets/images/mockup.png) 
 mockup generated via https://techsini.com/multi-mockup/
 
 ## UX
