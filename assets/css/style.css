@@ -89,11 +89,13 @@ a.active {
 
 .hero-text {
     font-family: 'Amatic sc', sans-serif;
-    align-items: center;
+    font-size: 1.5rem;
+    
     justify-content: center;
     text-align: center;
 
     display: flex;
+    align-items: center;
 }
 
 #hero-yellow {
@@ -135,7 +137,7 @@ a.active {
     right: 300px;
 
     text-transform: capitalize;
-    font-size: 200%;
+    font-size: 2rem;
 }
 
 /* introduction */
@@ -572,6 +574,10 @@ th {
         font-size: 1em;
     }
 
+    #menu li{
+        padding: 0 2px;
+    }
+
     #intro-inner {
         width: 50%;
     }
@@ -650,7 +656,7 @@ th {
     }
 
     h2 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     header {
@@ -658,12 +664,12 @@ th {
     }
 
     #logo {
-        font-size: 2rem;
+        font-size: 1.2rem;
         margin-bottom: 0;
         font-weight: bold;
     }
 
-    #menu {
+    #menu h2, h3 {
         font-size: 0.75rem;
     }
 
