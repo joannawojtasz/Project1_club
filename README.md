@@ -24,11 +24,11 @@ The visitor of the webpage expect/want/need:
 
 ### Wireframe mockups
 
-* ![wireframe_index](/assets/images/wireframe_index.PNG)
+* ![wireframe_index](/assets/images/wireframe_index.PNG) 
 * ![wireframe_gallery](/assets/images/wireframe_gallery.PNG)
 * ![wireframe_signup](/assets/images/wireframe_signup.PNG)
 * ![wireframe_calendar](/assets/images/wireframe_calendar.PNG)
-* ![wireframe_ideas](/assets/images/wireframe_ideas.PNG)
+* ![wireframe_ideas](/assets/images/wireframe_ideas.png)
 
 
 ### Changes
