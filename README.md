@@ -197,12 +197,14 @@ The visitor of the webpage expect/want/need:
 
 * Mobile
 
-![Lighthouse Mobile](/assets/images/ligthhouse-mobile.png)
+![Lighthouse Mobile](assets/images/lighthouse-mobile.png)
 
 - [ ] Porblems: lack of passive listeners on map element.
 - [ ] Image elements do not have explicit width and height.
 - [x] Font sizes in %
 - [ ] Lack of contrast - the error is related to a hover, or active page link in navigation bar, as it becomes gray (from black) when in use, remaining fonts have apropriate contrast.
+
+The Lighthouse tools provided satisfying response. Selected issues were fixed according to recived suggestions. Explenation of some of the remaining issues can be found above. 
 
 ## Deployment
 
@@ -215,9 +217,13 @@ The visitor of the webpage expect/want/need:
 
 The live link can be found here - https://joannawojtasz.github.io/Project1_club/index.html
 
+The deployment of the page did not provide any errors.
+
 ## Credits
 
 The visual media origin from free resources of: 
 * https://www.pexels.com/
 * https://stocksnap.io/
 * https://fontawesome.com/
+
+The support and suggestions of Akshat Garg (Code Institute mentor) were applied.
