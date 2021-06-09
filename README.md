@@ -24,10 +24,10 @@ The visitor of the webpage expect/want/need:
 
 ### Wireframe mockups
 
-* ![wireframe_index](/assets/images/wireframe_index.PNG) 
-* ![wireframe_gallery](/assets/images/wireframe_gallery.PNG)
-* ![wireframe_signup](/assets/images/wireframe_signup.PNG)
-* ![wireframe_calendar](/assets/images/wireframe_calendar.PNG)
+* ![wireframe_index](/assets/images/wireframe_index.png) 
+* ![wireframe_gallery](/assets/images/wireframe_gallery.png)
+* ![wireframe_signup](/assets/images/wireframe_signup.png)
+* ![wireframe_calendar](/assets/images/wireframe_calendar.png)
 * ![wireframe_ideas](/assets/images/wireframe_ideas.png)
 
 
@@ -144,6 +144,6 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 ## Credits
 
 The visual media origin from free resources of: 
--https://www.pexels.com/
--https://stocksnap.io/
--https://fontawesome.com/
+* https://www.pexels.com/
+* https://stocksnap.io/
+* https://fontawesome.com/
