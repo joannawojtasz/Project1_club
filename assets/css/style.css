@@ -458,26 +458,16 @@ input {
     align-content: space-around;
 }
 
-#calendar-img {
-    width: 25%;
-    height: 500px;
-
-    background-image: url(../images/Calendar.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-table {
-    height: 500px;
-    width: 500px;
-}
-
 #calendar-events {
+    max-width: 400px;
+    height: 600px;
+
     border: 1px solid #3a3a3a;
     padding: 25px;
+    margin-bottom: 25px;
 
     line-height: 2.5rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 
     display: flex;
     justify-content: space-around;
@@ -495,6 +485,16 @@ table {
     padding: 20px;
 }
 
+#events-text h3 {
+    text-align: left;
+    padding: 5px;
+}
+
+table {
+    height: 650px;
+    width: 500px;
+}
+
 table,
 td,
 th {
@@ -506,7 +506,7 @@ th {
 }
 
 th {
-    width: 14.25%;
+    width: 20px;
 
     font-family: 'amatic sc', sans-serif;
     font-size: 2rem;
@@ -566,18 +566,22 @@ th {
         flex-direction: column;
     }
 
-    #calendar-img {
+    #video {
         display: none;
     }
 
     #calendar-events {
-        width: 600px;
+        width: 500px;
 
         padding: 5px;
         margin-top: 50px;
 
         font-size: 1.25rem;
         line-height: 2rem;
+    }
+
+    table {
+        width:500px
     }
 
     .form-field {
