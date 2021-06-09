@@ -468,7 +468,7 @@ input {
 #calendar-section {
     clear: both;
     width: 100%;
-
+    min-height: calc(100vh - 155px);
     display: flex;
     justify-items: center;
     flex-direction: row;
