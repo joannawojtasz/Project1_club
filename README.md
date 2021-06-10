@@ -214,6 +214,13 @@ Chrome developer tools were used to simulate browsing the project on different s
 
 The Lighthouse tools provided satisfying response. Selected issues were fixed according to recived suggestions. Explenation of some of the remaining issues can be found above. 
 
+## Encountered bugs
+
+- [x] When updating layout of the menu, the  hover effect was lost. As a measure to fix the issue  code was reevaluated. The resaon was tag for initial color was more selective than hover selector. Using same lavel of selectors fixed the issure. Hover and active effekts work.
+
+- [x] The footer on calendar page placed in the middle of viewport height. The issue was discussed during mentor session and solution wass propsed by mentor. The height of content section was set with use of min-height calculation. 
+
+- [x] Issues with udjusting the table size and making it respononssive. The issue was fixed by setting size of table for each screen size separately. 
 
 ## Deployment
 
