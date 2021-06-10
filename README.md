@@ -156,7 +156,7 @@ The visitor of the webpage expect/want/need:
 
  * manual code evaluation, cleaning-up the code structure and looking for missused commands, typos
    - [x] found multiple redundant lines, improved code organisation for readability.
-   - [x] the form accepts digits for name - fixed by setting requirements for form input
+   - [x] the form accepts digits for name and letters for age- fixed by setting requirements for form input
 
  * testing in __different brosers__ and __screen sizes__ - the webpage was opened, scrolled-through and navigation between pages was tested on different browsers at desktop and mobile devices
 
