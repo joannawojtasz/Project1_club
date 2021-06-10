@@ -55,11 +55,11 @@
                     <h2>Sign up now! <i class="fas fa-edit"></i></h2>
                     <div class="form-div">
                         <label for="fname"> First Name</label>
-                        <input type="text" name="first_name" id="fname" required class="text-input">
+                        <input type="text" name="first_name" id="fname" required class="text-input" pattern="[a-x, A-Z]{0-50}" placeholder="First Name">
                     </div>
                     <div class="form-div">
                         <label for="lname"> Last Name</label>
-                        <input type="text" name="last_name" id="lname" required class="text-input">
+                        <input type="text" name="last_name" id="lname" required class="text-input"  pattern="[a-x, A-Z]{0-50}" placeholder="Last Name">
                     </div>
                     <div class="form-div">
                         <label for="email"> Email Address</label>
@@ -68,12 +68,12 @@
                     </div>
                     <div class="form-div">
                         <label for="phone"> Phone number</label>
-                        <input type="tel" pattern="[0]{1}[7]{1}[0-9]{8}" name="phone_number" id="phone" required
+                        <input type="tel" pattern="[0]{1}[0-9]{9}" name="phone_number" id="phone" required
                             placeholder="0712345678" class="text-input">
                     </div>
                     <div class="form-div">
                         <label for="kname"> Kid's Name</label>
-                        <input type="text" name="kid_name" id="kname" required class="text-input">
+                        <input type="text" name="kid_name" id="kname" required class="text-input" pattern="[a-x, A-Z]{0-50}" placeholder="Kid's Name">
                     </div>
                     <div class="form-div">
                         <label for="kage"> Kid's Age</label>
